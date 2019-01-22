@@ -1,13 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Body from './Parse.js';
 
 var App = () => (
     <div>
-
-        <input type="text" placeholder="Name"></input>
-        <br></br>
-        <input type="text" placeholder="Message"></input>
-        <button type="button">Send</button>
+        <Body />
     </div>
 )
 
